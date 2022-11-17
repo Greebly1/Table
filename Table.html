@@ -1,0 +1,97 @@
+<!--Create an HTML document that displays the amount of 3D model uploads per website and number of users-->
+<!--Compare Sketchfab, CGTrader, and Turbosquid using tables-->
+<!--Doctype specifies this is an HTML documen-->
+<!DOCTYPE html>
+<!--HTML tag contains all HTML code-->
+<html lang="en">
+<!--Head tag contains special information about webpage and the body-->
+
+<head>
+    <!--Meta info on the characterset, screen dimensions, etc-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of the website is 3D model websites-->
+    <title>3D model websites</title>
+    <style>
+        body {
+            background-color: burlywood;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            padding: 20px;
+            text-align: center;
+         
+            background-color: lightgray;        
+        }
+        li a:hover {
+            background-color: gray;
+        }
+        h1 {
+            text-align: center;
+            background-color: gray;
+            padding: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-radius: 2px;
+            font-size: xx-large;
+        }
+        table {
+            background-color: black;
+            width: 50%;
+            height: 400px;
+        }
+        th {
+            background-color: brown;
+        }
+        td {
+            background-color: azure;
+        }
+    </style>
+</head>
+<!--Body tag contains all HTML elements-->
+
+<body>
+    <h1> 3D Sharing Websites </h1>
+    <ul>
+        <li> <a href="https://sketchfab.com/feed"> Sketchfab </a> </li>
+        <li> <a href="https://www.cgtrader.com/"> CGTrader </a></li>
+        <li> <a href="https://www.turbosquid.com/"> Turbosquid </a></li>
+    </ul>
+    <br><br><br><br>
+    <table>
+        <tr>
+            <th> Website </th>
+            <th> Total Uploads </th>
+            <th> Total Users </th>
+        </tr>
+        <tr>
+            <th> Sketchfab </th>
+            <td> > 8,000,000 </td>
+            <td> > 4,000,000 </td>
+        </tr>
+        <tr>
+            <th> CGTrader </th>
+            <td> > 6,330,000 </td>
+            <td> > 2,000,000 </td>
+        </tr>
+        <tr>
+            <th> Turbosquid </th>
+            <td> > 2,500,000 </td>
+            <td> > 800,000 </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
+<!--End of document-->
